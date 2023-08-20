@@ -5,18 +5,18 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class BullsAndCows {
+public class Baseball {
     private int numberLength = 3;
     private int[] computerNumbers = new int[numberLength];
 
     private int strikeCount = 0;
     private int ballCount = 0;
 
-    public static BullsAndCows makeNewGame() {
-        return new BullsAndCows();
+    public static Baseball makeNewGame() {
+        return new Baseball();
     }
 
-    private BullsAndCows() {}
+    private Baseball() {}
 
     public int getNumberLength() {
         return numberLength;

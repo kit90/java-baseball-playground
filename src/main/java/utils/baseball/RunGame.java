@@ -3,7 +3,7 @@ package utils.baseball;
 public class RunGame {
     public static void main(String[] args){
         boolean run = true;
-        BullsAndCows game = BullsAndCows.makeNewGame();
+        Baseball game = Baseball.makeNewGame();
         game.resetComputerNumbers();
 
         while(run) {

@@ -1,12 +1,12 @@
 package utils.baseball;
 
 public class ResultView {
-    public static void printGameResult(BullsAndCows game) {
+    public static void printGameResult(Baseball game) {
         String result = getGameResult(game);
         System.out.println(result);
     }
 
-    private static String getGameResult(BullsAndCows game) {
+    private static String getGameResult(Baseball game) {
         int strikeCount = game.getStrikeCount();
         int ballCount = game.getBallCount();
         int numberLength = game.getNumberLength();

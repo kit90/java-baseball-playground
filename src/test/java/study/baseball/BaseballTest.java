@@ -5,15 +5,15 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
-import utils.baseball.BullsAndCows;
+import utils.baseball.Baseball;
 
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
-public class BullsAndCowsTest {
-    private BullsAndCows game = BullsAndCows.makeNewGame();
+public class BaseballTest {
+    private Baseball game = Baseball.makeNewGame();
 
     @BeforeEach
     void givenComputerNumbers() {
